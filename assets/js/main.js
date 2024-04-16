@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(function () {
             let loadingOverlay = document.getElementById("loadingOverlay");
             loadingOverlay.style.display = "none";
-            document.querySelector("body").classList.add("overflow_hidden");
-        }, 3000);
+            document.querySelector("body").classList.remove("overflow_hidden");
+        }, );
     });
 });
 const mybutton = document.getElementById("myBtn");
