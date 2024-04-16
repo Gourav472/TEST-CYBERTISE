@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBERTISE</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="shortcut icon" href="./assets/images/svg/header-logo.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Cybertise">
+    <meta name="description" content="Experts in Cyber Security" >
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content="https://metatags.io/" >
+    <meta property="og:title" content="Cybertise" >
+    <meta property="og:description" content="Experts in Cyber Security" >
+    <meta property="og:image" content="https://i.ibb.co/8gJHXhs/cyber.png" >
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" >
+    <meta property="twitter:url" content="https://metatags.io/" >
+    <meta property="twitter:title" content="Cybertise" >
+    <meta property="twitter:description" content="Experts in Cyber Security" >
+    <meta property="twitter:image" content="https://i.ibb.co/8gJHXhs/cyber.png" >
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+</head>
+
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loader gap-5 d-flex flex-column justify-content-center align-items-center w-100">
+            <img class="w-100  max-500" src="./assets/images/svg/loader.svg" alt="svg">
+            <div class="honeycomb">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </div>
+    <header class="header-bg-image position-relative ">
+        <nav class=" bg-navbar py-navbar">
+            <div class="container max-w-1265  ">
+                <div class=" d-flex align-items-center justify-content-between">
+                    <img class="cp max-logo" src="./assets/images/svg/nav-logo.svg" alt="logo">
+                    <div class="d-flex mb-0 gap-40 align-items-center mobile_view" id="navbar">
+                        <ul
+                            class="d-flex gap-32 m-0 p-0  justify-content-center flex-column flex-md-row align-items-center">
+                            <li> <img class="cp d-md-none max-logo" src="./assets/images/svg/nav-logo.svg" alt="logo">
+                            </li>
+                            <li><a href="#home" class=" home outfit fw-400 fs-md lh-24 white op-80"
+                                    onclick="openNav()">Home</a> </li>
+                            <li><a href="#about" class=" home outfit fw-400 fs-md lh-24 white op-80"
+                                    onclick="openNav()">About</a> </li>
+                            <li><a href="#product" class="home outfit fw-400 fs-md lh-24 white op-80"
+                                    onclick="openNav()">Product</a> </li>
+                            <li><a href="#contact" class=" home outfit fw-400 fs-md lh-24 white op-80"
+                                    onclick="openNav()">Contact</a> </li>
+                        </ul>
+                        <ul class=" m-0 p-0 d-flex align-items-center gap-10">
+                            <li><img class="flag-1 cp" src="./assets/images/svg/flag1.svg" alt="flag"></li>
+                            <li><img class="flag-1 cp" src="./assets/images/germany.png" alt="flag"></li>
+                        </ul>
+
+                    </div>
+                    <div onclick="openNav()" class="menu d-block d-md-none ">
+                        <span class=" span-style"></span>
+                        <span class="my-2 span-style"></span>
+                        <span class=" span-style"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class=" container  max-w-1140 min_vh_100 py-header d-flex justify-content-center align-items-center">
+            <div class=" d-flex flex-column align-items-center z-2">
+                <img class="w-100 max-w-159" src="./assets/images/svg/header-logo.svg" alt="logo">
+                <h2 class=" mb-0 max-w-582 text-center outfit fw-600 fs-2xl lh-61 white pt-23">Experts in Cyber Security
+                </h2>
+                <button class=" btn-header mt-35 outfit fw-500 fs-md lh-24 black2">Discover</button>
+            </div>
+        </div>
+        <div class=" position-absolute header-box w-100">
+        </div>
+    </header>
+    <section class=" bg_black mt_2 position-relative" id="home">
+        <div class=" container max-w-1140">
+            <div class=" py-box d-flex justify-content-center">
+                <div class=" sec-2-box w-100 z-2" data-aos="flip-down" data-aos-duration="1500">
+                    <div class=" row ">
+                        <div class="col-12  col-sm-6  justify-content-center col-md-4 d-flex justify-content-md-start">
+                            <div class="d-flex flex-column gap-16">
+                                <h2 class=" mb-0 green outfit fw-500 fs-xl lh-52 text-center ">1K+</h2>
+                                <p class=" mb-0 white op-80 outfit fw-400 fs-lg lh-26 text-center ">Partners Globally
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12  col-sm-6 mt-3 mt-sm-0 justify-content-center col-md-4 d-flex justify-content-md-center">
+                            <div class="d-flex flex-column gap-16 ">
+                                <h2 class=" mb-0 green outfit fw-500 fs-xl lh-52 text-center ">120+</h2>
+                                <p class=" mb-0 white op-80 outfit fw-400 fs-lg lh-26 text-center ">Countries Served</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12  justify-content-center mt-3 mt-sm-5 mt-md-0 col-md-4 d-flex justify-content-md-end ">
+                            <div class="d-flex flex-column gap-16 ">
+                                <h2 class=" mb-0 green outfit fw-500 fs-xl lh-52 text-center ">350K+</h2>
+                                <p class=" mb-0 white op-80 outfit fw-400 fs-lg lh-26 text-center ">Users Worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" row sec2-row ">
+                <div class="col-12 z-2 justify-content-center col-lg-6 d-flex justify-content-lg-start"
+                    data-aos="fade-up" data-aos-duration="2000">
+                    <img class=" w-100 max-513" src="./assets/images/sec-2img.png" alt="image">
+                </div>
+                <div class="col-12 z-2 justify-content-center mt-5 mt-lg-0 align-items-lg-center col-lg-6 d-flex justify-content-lg-end"
+                    data-aos="fade-up" data-aos-duration="2000">
+                    <div class=" d-flex flex-column">
+                        <h2 class=" mb-0 max-527 outfit fw-400 fs-xl lh-57 white text-center text-sm-start">Are you sure
+                            your <span class=" green">data is safe</span>? Neither are we.</h2>
+                        <div class="border-left-2 mt-16 pl_16">
+                            <p class=" mb-0 op-80 max-w-511 outfit fw-400 fs-md lh-24 white text-center text-sm-start">
+                                In today's digital world,
+                                the risk of cyber attacks is constantly increasing. It is no
+                                longer the hackers themselves who exploit security gaps in systems to enrich themselves
+                                on a smaller scale. In the meantime, it is more about criminal structures that acquire
+                                weak points on the hacker black market in order to later extort large ransom sums.</p>
+                            <p
+                                class="mb-0 op-80 max-w-507 outfit fw-400 fs-md lh-24 white pt-10 text-center text-sm-start ">
+                                Statistics from the German Federal Office for Information Security (BSI) show that the
+                                number of vulnerabilities in commercial software has increased significantly compared to
+                                the previous year. In addition, there is a large number of unreported vulnerabilities
+                                that have not yet been discovered. This is exactly where Cybertise comes in: we find
+                                weaknesses in IT systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="elipse1-sec2 position-absolute d-none d-md-block">
+            <img class=" w-100 max-607" src="./assets/images/svg/sec2-svg1.svg" alt="svg">
+        </div>
+        <div class="elipse2-sec2 position-absolute d-none d-md-block">
+            <img class=" w-100 max-513" src="./assets/images/svg/sec2-svg2.svg" alt="svg">
+        </div>
+    </section>
+    <section class=" sec-3-bg mt_2 position-relative" id="product">
+        <div class=" container max-w-1140">
+            <div class=" d-flex flex-column align-items-center pt-sec-3 ">
+                <h2 class=" mb-0 white outfit fw-400 fs-xl lh-57 z-2">Our <span class=" green">Services</span></h2>
+                <p class=" mb-0 white op-80 outfit fw-400 fs-md lh-24 sec-3-para text-center z-2">Dolor ipsum facilisi
+                    facilisis diam mi dis. Et gravida porta quam risus consectetur est imperdiet.
+                    Enim feugiat nisl dolor dui est.</p>
+            </div>
+            <div class=" d-flex align-items-center gap-boxes flex-wrap justify-content-center flex-xl-nowrap py-boxes">
+                <div class=" z-2 cp sec-3-box-1 w-100 d-flex flex-column align-items-center" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class=" mini-box d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/svg/mini1.svg" alt="svg">
+                    </div>
+                    <h2 class=" mb-0 white outfit fw-600 fs-lg lh-33 text-center pt-20">Pentesting</h2>
+                    <p class=" mb-0 white op-80 outfit fw-400 fs-md lh-24 text-center pt_8 max-328">Cybertise's
+                        pentesting enhances digital security with manual 'BlackBox' and 'GreyBox' tests
+                        emulating real attacks, offering risk solutions for diverse systems.</p>
+                </div>
+                <div class=" z-2 cp sec-3-box-1 w-100 d-flex flex-column align-items-center" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class=" mini-box d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/svg/mini2.svg" alt="svg">
+                    </div>
+                    <h2 class=" mb-0 white outfit fw-600 fs-lg lh-33 text-center pt-20">Crowd-Sourced Pentests</h2>
+                    <p class=" mb-0 white op-80 outfit fw-400 fs-md lh-24 text-center pt_8 max-319">Cybertise advances
+                        beyond pen tests, employing expert teams to comprehensively probe targets from multiple angles,
+                        ensuring precise, efficient vulnerability identification.</p>
+                </div>
+                <div class=" z-2 cp sec-3-box-1 w-100 d-flex flex-column align-items-center" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class=" mini-box d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/svg/mini3.svg" alt="svg">
+                    </div>
+                    <h2 class=" mb-0 white outfit fw-600 fs-lg lh-33 text-center pt-20">VRP</h2>
+                    <p class=" mb-0 white op-80 outfit fw-400 fs-md lh-24 text-center pt_8 max-310">Cybertise's VRP
+                        (BugBounty) is the ultimate security step, eradicating last vulnerabilities with swift incident
+                        response. Elevates security beyond pentesting.</p>
+                </div>
+            </div>
+        </div>
+        <div class=" position-absolute linear-box1 w-100">
+        </div>
+        <div class=" position-absolute linear-box2 w-100">
+        </div>
+    </section>
+    <section class="bg_black mt_2 position-relative">
+        <div class=" container max-w-1140">
+            <div class=" row py-sec4 flex-column-reverse flex-lg-row">
+                <div class=" z-2 col-12 mt-5 mt-lg-0 justify-content-center justify-content-lg-start col-lg-6 d-flex align-items-lg-center"
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                    <div class=" d-flex flex-column">
+                        <h2 class=" mb-0 max-527 outfit fw-400 fs-xl lh-57 white text-center text-sm-start">Offensive
+                            <span class=" green">Security Experts</span>
+                        </h2>
+                        <div class="border-left-3 mt-16 pl_16">
+                            <p class=" mb-0 op-80 max-w-507 outfit fw-400 fs-md lh-24 white text-center text-sm-start">
+                                Cybertise offers offensive security services that help your company to make the systems
+                                of your external IT landscape more secure. This approach simulates attacks to expose
+                                vulnerabilities that may not have been detected by defensive measures. In addition, this
+                                strategy can help to test and evaluate the effectiveness of existing security measures.
+                            </p>
+                            <p
+                                class="mb-0 op-80 max-w-507 outfit fw-400 fs-md lh-24 white pt-10 text-center text-sm-start ">
+                                Our core competence lies in the implementation of various pentesting services that are
+                                specially tailored to the needs of our customers. In addition to this, we also offer
+                                other services in this area. Below you will find an overview of our service portfolio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" z-2 col-12 justify-content-center justify-content-lg-end d-flex col-lg-6 "
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                    <img class=" w-100 max-w-582" src="./assets/images/sec-4-img.png" alt="image">
+                </div>
+            </div>
+
+        </div>
+        <div class=" sec-4-elipse z-1 position-absolute d-none d-md-block">
+            <img class=" w-100 max-929" src="./assets/images/svg/sec4-elipse.svg" alt="svg">
+        </div>
+    </section>
+    <section class="bg_black mt_2 bg-sec5 position-relative ">
+        <div class=" container max-w-1152">
+            <div class="row py-sec5">
+                <div class="col-12  z-2 justify-content-center col-lg-6 d-flex justify-content-lg-start"
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                    <img class=" w-100 max-476" src="./assets/images/sec5-1.png" alt="img">
+                </div>
+                <div class="col-12 z-2  justify-content-center mt-5 mt-lg-0 col-lg-6 d-flex justify-content-lg-end align-items-center"
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                    <div class=" d-flex flex-column">
+                        <h2 class=" mb-0 white outfit fw-400 fs-xl lh-57 text-center text-sm-start">Further <span
+                                class="green">Services</span>
+                        </h2>
+                        <p class=" mb-0 outfit fw-400 fs-md lh-24 white op-80 max-513 pt-10 text-center text-sm-start">
+                            Neben den oben genannten
+                            Kernkompetenzen
+                            bieten wir auch weitere
+                            IT-Sicherheitsdienstleistungen in diesem Bereich an.</p>
+                        <h2 class=" mb-0 white outfit fw-600 fs-lg lh-33 text-center text-sm-start">Awareness Audits
+                        </h2>
+                        <div class=" border-left pl_16 mt-10">
+                            <p class=" white mb-0 max-520 op-80 outfit fw-400 fs-md lh-24 text-center text-sm-start">We
+                                conduct simulated phishing
+                                tests and social engineering audits to gauge employee
+                                readiness, offering guidance and training if needed.</p>
+                        </div>
+                        <h2 class=" mb-0 white outfit fw-600 fs-lg lh-33 pt-10 text-center text-sm-start">Vulnerability
+                            Management</h2>
+                        <div class=" border-left pl_16 mt-10">
+                            <p class=" white mb-0 max-520 op-80 outfit fw-400 fs-md lh-24 text-center text-sm-start">Our
+                                Managed VAS enhances
+                                network security through automated scans, adaptable to various assets, with setup and
+                                support services provided.</p>
+                        </div>
+                        <h2 class=" mb-0 white outfit fw-600 fs-lg lh-33 pt-10 text-center text-sm-start">Crisis
+                            Management</h2>
+                        <div class=" border-left pl_16 mt-10">
+                            <p class=" white mb-0 max-520 op-80 outfit fw-400 fs-md lh-24 text-center text-sm-start">
+                                Cybertise offers rapid,
+                                dependable crisis management aid for cyber attacks, swiftly restoring operations and
+                                minimizing impact through expert collaboration.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class=" sec-5-elipse1 z-1 position-absolute d-none d-md-block">
+            <img class=" w-100" src="./assets/images/svg/sec5-1.svg" alt="svg">
+        </div>
+        <div class=" sec-5-elipse2 z-1 position-absolute d-none d-md-block">
+            <img class=" w-100 max-447" src="./assets/images/svg/sec-5-2.svg" alt="svg">
+        </div>
+    </section>
+    <section class="bg_black mt_2 position-relative " id="about-1">
+        <div class=" container max-w-1140 z-3">
+            <div class=" d-flex justify-content-center pt-sec-text">
+                <h2 class=" mb-0 white outfit fw-400 fs-xl lh-57 max-725 text-center z-2">Decentralized Infrastructure,
+                    <span class=" green">Globally Distributed.</span>
+                </h2>
+            </div>
+            <div class=" py-sec-6  ">
+                <img class=" position-relative w-100 z-3 " src="./assets/images/globe.png" alt="globe map">
+            </div>
+        </div>
+        <div class=" position-absolute elipse-right z-0 d-none d-md-block">
+            <img class=" w-100 max-520 " src="./assets/images/svg/rightsvg.svg" alt="svg">
+        </div>
+        <div class=" position-absolute elipse-left z-0 d-none d-md-block">
+            <img class=" w-100 max-447" src="./assets/images/svg/leftsvg.svg" alt="svg">
+        </div>
+        <div class=" position-absolute elipse-left-3 z-0 d-none d-md-block">
+            <img class=" w-100 max-447 " src="./assets/images/svg/svg3.svg" alt="svg">
+        </div>
+    </section>
+    <section class="bg_black mt_2" id="contact">
+        <div class=" container max-w-1140">
+            <div class=" d-flex justify-content-center py-sec-7">
+                <div class=" sec7-box w-100 d-flex  flex-column align-items-center z-2 " data-aos="fade-up"
+                    data-aos-duration="2000">
+                    <h2 class=" mb-0 white outfit fw-400 fs-xl  lh-57 text-center">Get Into <span
+                            class=" green">Touch</span></h2>
+                    <p class=" max-628 op-80 text-center white mb-0 fs-md lh-24 outfit fw-400 pt-10">Defend your
+                        business against online threats while leveraging our IT security expertise and
+                        experience for comprehensive protection and peace of mind.</p>
+                    <div
+                        class=" input-box w-100 flex-wrap flex-sm-nowrap d-flex justify-content-between align-items-center">
+                        <input type="email" placeholder="Enter your email address" name="email-input"
+                            style="border: none; outline: none; background: transparent;"
+                            class=" w-100 op-60 outfit fw-400 fs-md lh-24 white">
+                        <button class=" d-none d-sm-block outfit fw-500 fs-md lh-24 black2 btn-sign text-nowrap">Sign
+                            up</button>
+                    </div>
+                    <button class=" d-sm-none mt-3 outfit fw-500 fs-md lh-24 black2 btn-sign-2 text-nowrap w-100">Sign
+                        up</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class=" footer-bg" id="about">
+        <div class=" container max-w-1140">
+            <div class="row footer-py">
+                <div class="col-12  col-md-4 justify-content-md-center  d-flex justify-content-lg-start">
+                    <div class=" d-flex flex-column gap-12">
+                        <img class=" max-logo-2" src="./assets/images/svg/footer-logo.svg" alt="logo">
+                        <p class=" op-80 outfit fw-400 fs-md lh-24 white mb-0 footer-para">Lorem Ipsum is simply dummy
+                            text of the printing and typesettin industry.</p>
+                    </div>
+                </div>
+                <div
+                    class="col-6 col-sm-4 justify-content-md-center  mt-4 col-md-2 mt-md-0 d-flex justify-content-lg-end ">
+                    <ul class=" m-0 p-0 flex-column d-flex gap-10">
+                        <li> <a class=" outfit fw-500 fs-md lh-24 white">Quick links</a></li>
+                        <li><a href="#home" class=" outfit fw-400 fs-md lh-24 white op-90 pt_8 foot">Home</a></li>
+                        <li><a href="#about-1" class=" outfit fw-400 fs-md lh-24 white op-90 foot ">About</a></li>
+                        <li><a href="#product" class=" outfit fw-400 fs-md lh-24 white op-90 foot ">Product</a></li>
+                        <li><a href="#contact" class=" outfit fw-400 fs-md lh-24 white op-90 foot ">Contact</a></li>
+
+                    </ul>
+                </div>
+                <div
+                    class="col-6 col-sm-4 justify-content-md-center  mt-4 col-md-3 mt-md-0 d-flex justify-content-lg-center">
+                    <ul class=" m-0 p-0 flex-column d-flex gap-10">
+                        <li> <a class=" outfit fw-500 fs-md lh-24 white">Links</a></li>
+                        <li><a  class=" cp outfit fw-400 fs-md lh-24 white op-90 pt_8 foot">Privacy Policy</a></li>
+                        <li><a  class=" cp outfit fw-400 fs-md lh-24 white op-90 foot ">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div
+                    class="col-12 col-sm-4 justify-content-md-center  mt-4 col-md-3 mt-md-0 d-flex justify-content-lg-start">
+                    <div class=" d-flex flex-column">
+                        <h2 class=" outfit mb-0 fw-500 fs-md lh-24 white">Information</h2>
+                        <div class=" d-flex align-items-center gap-10 pt-23">
+                            <img src="./assets/images/svg/location.svg" alt="location">
+                            <a href="mailto:@Cybertise.com"
+                                class=" op-90 outfit fw-400 fs-md lh-24 white">@Cybertise.com</a>
+                        </div>
+                        <div class=" d-flex align-items-center gap-10 pt-15">
+                            <img src="./assets/images/svg/phon.svg  " alt="call">
+                            <a href="tel:+1234567890" class=" op-90 outfit fw-400 fs-md lh-24 white">+123 456 7890</a>
+                        </div>
+                        <p class=" mb-0 outfit fw-500 fs-md lh-24 white pt-10">Follow us</p>
+                        <div class=" d-flex align-items-center gap-10 pt-12">
+                            <a class="zoom" href="https://www.facebook.com/" target="_blank"><img
+                                    src="./assets/images/svg/facebook.svg" alt="facebook"></a>
+                            <a class="zoom" href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><img
+                                    src="./assets/images/svg/insta.svg" alt="instagram"></a>
+                            <a class="zoom" href="https://twitter.com/?lang=en" target="_blank"><img
+                                    src="./assets/images/svg/twitter.svg" alt="twitter"></a>
+                            <a class="zoom" href="https://www.linkedin.com/feed/" target="_blank"><img
+                                    src="./assets/images/svg/linkd.svg" alt="linkin"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" footer-line w-100">
+        </div>
+        <div class=" d-flex  justify-content-center py-12">
+            <h2 class=" mb-0 op-80 outfit fw-400 fs-sm lh-21 text-center white cp"> @ <span id="demo"> 2023</span>
+                Cybertise</h2>
+        </div>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="cp hithere">
+        <img src="./assets/images/svg/back-to-top.svg" alt="svg"></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

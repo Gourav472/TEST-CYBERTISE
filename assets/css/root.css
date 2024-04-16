@@ -1,0 +1,196 @@
+:root {
+    /* font-size */
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 24px;
+    --fs-xl: 48px;
+    --fs-2xl: 64px;
+
+    /* line-height */
+    --lh-21: 21px;
+    --lh-24: 24px;
+    --lh-26: 26px;
+    --lh-33: 33px;
+    --lh-52: 52px;
+    --lh-57: 57px;
+    --lh-61: 61px;
+
+    /* font-weight */
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    --fw-900: 900;
+
+    /* colors */
+    --navbar: #12121299;
+    --black: #0C0C0C;
+    --black2: #111111;
+    --green: #BAFF00;
+    --white: #FFFFFF;
+    --border: #FFFFFF29;
+    --border2: #BAFF0099;
+    --green2: #BAFF001A;
+    --input:#BAFF000F;
+    --border3:#BAFF0066;
+    --flag:#FFFFFF66;
+    --line: #FCFCFC;
+
+    /* opacity */
+    --op-60: 60%;
+    --op-70: 70%;
+    --op-80: 80%;
+    --op-90: 90%;
+}
+.line{
+    color: var(--line);
+}
+.flag{
+    color: var(--flag);
+}
+.border3{
+    color: var(--border3);
+}
+.input{
+    color: var(--input);
+}
+.green2 {
+    color: var(--green2);
+}
+
+.border2 {
+    color: var(--border2);
+}
+
+.border {
+    color: var(--border);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-2xl {
+    font-size: var(--fs-2xl);
+}
+
+.lh-21 {
+    line-height: var(--lh-21);
+}
+
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
+.lh-26 {
+    line-height: var(--lh-26);
+}
+
+.lh-33 {
+    line-height: var(--lh-33);
+}
+
+.lh-52 {
+    line-height: var(--lh-52);
+}
+
+.lh-57 {
+    line-height: var(--lh-57);
+}
+
+.lh-61 {
+    line-height: var(--lh-61);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.fw-800 {
+    font-weight: var(--fw-800);
+}
+
+.fw-900 {
+    font-weight: var(--fw-900);
+}
+
+.navbar {
+    color: var(--navbar);
+}
+
+.black {
+    color: var(--black);
+}
+
+.green {
+    color: var(--green);
+}
+
+.white {
+    color: var(--white);
+}
+
+.black2 {
+    color: var(--black2);
+}
+
+.op-60 {
+    opacity: var(--op-60);
+}
+
+.op-70 {
+    opacity: var(--op-70);
+}
+
+.op-80 {
+    opacity: var(--op-80);
+}
+
+.op-90 {
+    opacity: var(--op-90);
+}
+
+@media (max-width:768px) {
+    :root {
+        /* font-size */
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-lg: 24px;
+        --fs-xl: 32px;
+        --fs-2xl: 32px;
+
+        /* line-height */
+        --lh-21: 21px;
+        --lh-24: 24px;
+        --lh-26: 26px;
+        --lh-33: 33px;
+        --lh-52: 52px;
+        --lh-57: 40px;
+        --lh-61: 45px;
+    }
+}
