@@ -661,29 +661,15 @@
         transform: translateY(0);
     }
 }
-.footer-elipse{
+
+.footer-elipse {
     right: 0px;
- bottom:120px;
+    bottom: 120px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.gap_6 {
+    gap: 6.13px;
+}
 
 @media (max-width:576px) {
     .max-logo-2 {
