@@ -32,10 +32,12 @@
     --border: #FFFFFF29;
     --border2: #BAFF0099;
     --green2: #BAFF001A;
-    --input:#BAFF000F;
-    --border3:#BAFF0066;
-    --flag:#FFFFFF66;
+    --input: #BAFF000F;
+    --border3: #BAFF0066;
+    --flag: #FFFFFF66;
     --line: #FCFCFC;
+    --rgb1: rgba(186, 255, 0, 0.6);
+    --rgb2: rgba(0, 178, 254, 0.6);
 
     /* opacity */
     --op-60: 60%;
@@ -43,18 +45,31 @@
     --op-80: 80%;
     --op-90: 90%;
 }
-.line{
+
+.rgb1 {
+    color: var(--rgb1);
+}
+
+.rgb2 {
+    color: var(--rgb2);
+}
+
+.line {
     color: var(--line);
 }
-.flag{
+
+.flag {
     color: var(--flag);
 }
-.border3{
+
+.border3 {
     color: var(--border3);
 }
-.input{
+
+.input {
     color: var(--input);
 }
+
 .green2 {
     color: var(--green2);
 }
