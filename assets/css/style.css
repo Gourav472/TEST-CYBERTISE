@@ -135,6 +135,10 @@
     gap: 16px;
 }
 
+.gap_box {
+    gap: 10px;
+}
+
 .max-513 {
     max-width: 513px;
 }
@@ -678,6 +682,10 @@
 }
 
 @media (min-width:576px) {
+    .gap_box {
+        gap: 16px;
+    }
+
     .sec7-box {
         padding: 64px 0px 64px 0px;
     }
